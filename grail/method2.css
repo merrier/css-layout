@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.wrap {
+    background: orange;
+    padding: 0 200px;
+}
+.wrap:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+}
+.wrap .middle,
+.wrap .left,
+.wrap .right {
+    float: left;
+    position: relative;
+}
+.wrap .middle {
+    width: 100%;
+    background: green;
+}
+.wrap .left {
+    margin-left: -100%;
+    left: -200px;
+    width: 200px;
+}
+.wrap .right {
+    margin-right: -100%;
+    width: 200px;
+}

@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.left, .right {
+    float: left;
+    width: 50%;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+
+.left {
+    background: orange;
+}
+
+.right {
+    background: green;
+}

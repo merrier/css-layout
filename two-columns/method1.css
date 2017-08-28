@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    background: orange;
+}
+
+.container:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+.right {
+    float: right;
+    width: calc(100% - 320px);
+    background: green;
+}
+
+.left {
+    width: 320px;
+}

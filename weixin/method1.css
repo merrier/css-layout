@@ -1,0 +1,96 @@
+.container {
+    padding: 10px 0;
+    position: relative;
+    width: 375px;
+    height: 800px;
+    background: #ddd;
+    margin: 0 auto;
+}
+.container .list-else {
+    padding: 0 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+.container .list-else:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+}
+.container .list-else dt {
+    float: left;
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: #000;
+}
+.container .list-else dt>img {
+    width: 100%;
+}
+.container .list-else dd {
+    position: relative;
+    float: left;
+    display: block;
+    max-width: 240px;
+    margin: 0;
+    margin-left: 10px;
+    background: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    text-align: justify;
+    white-space: pre-wrap;
+    -webkit-filter: drop-shadow(0 0 2px #aaa);
+    line-height: 1.4;
+}
+.container .list-else dd::before {
+    content: "";
+    border: 6px solid transparent;
+    border-right: 8px solid #fff;
+    position: absolute;
+    left: -12px;
+    top: 12px;
+}
+.container .list-self {
+    padding: 0 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+.container .list-self:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+}
+.container .list-self dt {
+    float: right;
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: #000;
+    margin-left: 10px;
+}
+.container .list-self dt>img {
+    width: 100%;
+}
+.container .list-self dd {
+    position: relative;
+    float: right;
+    display: block;
+    max-width: 240px;
+    margin: 0;
+    background: #9EEA6A;
+    padding: 6px 10px;
+    line-height: 1.4;
+    border-radius: 5px;
+    text-align: justify;
+    white-space: pre-wrap;
+    -webkit-filter: drop-shadow(0 0 2px #aaa);
+}
+.container .list-self dd::before {
+    content: "";
+    border: 6px solid transparent;
+    border-left: 8px solid #9EEA6A;
+    position: absolute;
+    right: -12px;
+    top: 12px;
+}

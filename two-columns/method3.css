@@ -1,0 +1,17 @@
+#container {
+    position: relative; /*将子元素的定位到具体的参照对象*/
+    width: 100%;
+}
+
+.left {
+    width: calc(100% - 320px);
+    background: orange;
+    border-right: 320px solid green; /*设置左边框宽度为320px像素，同等于sidebox的宽度*/
+}
+
+.right {
+    width: 320px;
+    position: absolute;
+    top: 0;
+    right: 0; /*使元素靠右*/
+}
